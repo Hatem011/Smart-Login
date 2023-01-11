@@ -1,0 +1,19 @@
+body
+{
+    background-color: rgb(2, 20, 37);
+    color: #fff;
+}
+.container
+{
+    width: 60%;
+    margin: auto;
+    /* background-color: rgba(0, 0, 255, 0.288); */
+}
+.box a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 1s;
+}
+.box a:hover{
+color: #09c;
+}

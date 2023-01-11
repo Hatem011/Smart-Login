@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="box text-center py-5 bg-dark">
+        <h1>Smart Login System</h1>
+        <input id="loginEmail" type="email" placeholder="enter tour email" class="form-control  my-3 w-50 mx-auto">
+        <input id="loginPassword" type="password" placeholder="enter tour password" class="form-control my-3 w-50 mx-auto">
+        <p class="text-danger d-none" id="fillMsg">all inputs are required</p>
+        <p class="text-danger d-none" id="errorMsg">emailr or password are incorrect</p>
+        <a id="loginBtn" class="w-100 btn btn-outline-primary my-3" onclick="login()">Login</a>
+        <p>don't have an account? <a href="register.html">Sign up</a> </p>
+        </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>

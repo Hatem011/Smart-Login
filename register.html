@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registertion Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="container my-5">
+<div class="box text-center py-5 bg-dark">
+<h1>Smart Login System</h1>
+<input id="nameInput" type="text" placeholder="enter your name" class="form-control my-3 w-50 mx-auto">
+<p class="text-danger d-none" id="usernameAlert">you should start with 1 letter capital</p>
+<input id="emailInput" type="email" placeholder="enter tour email" class="form-control  my-3 w-50 mx-auto">
+<p class="text-danger d-none" id="useremailAlert">name@example.com</p>
+<input id="passwordInput" type="password" placeholder="enter tour password" class="form-control my-3 w-50 mx-auto">
+<p class="text-danger d-none" id="userpasswordAlert">password should start with number and at least 3 and at most 15</p>
+<button id="registerID" class="w-100 btn btn-outline-primary my-3" onclick="signUp()">Register</button>
+<p class="btn btn-outline-success d-none" id="successMsg">Success</p>
+<p class="btn btn-outline-danger d-none" id="existMsg">this account is exist try another again!</p>
+<p class="btn btn-outline-danger d-none" id="tryagainMsg">sign up failed! try Again</p>
+<p>you have an account? <a href="index.html">Sign in</a></p>
+<a href="index.html" class="text-decoration-none text-white btn btn-outline-warning d-none " id="signinID">Sign in</a>
+</div>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
